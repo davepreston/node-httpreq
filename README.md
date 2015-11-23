@@ -66,11 +66,11 @@ __Example without options__
 var httpreq = require('httpreq');
 
 httpreq.get('http://www.google.com', function (err, res){
-	if (err) return console.log(err);
+  if (err) return console.log(err);
 
     console.log(res.statusCode);
     console.log(res.headers);
-	console.log(res.body);
+  console.log(res.body);
 });
 ```
 
@@ -80,23 +80,23 @@ __Example with options__
 var httpreq = require('httpreq');
 
 httpreq.get('http://posttestserver.com/post.php', {
-	parameters: {
-		name: 'John',
-		lastname: 'Doe'
-	},
-	headers:{
-		'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:18.0) Gecko/20100101 Firefox/18.0'
-	},
-	cookies: [
-		'token=DGcGUmplWQSjfqEvmu%2BZA%2Fc',
-		'id=2'
-	]
+  parameters: {
+    name: 'John',
+    lastname: 'Doe'
+  },
+  headers:{
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:18.0) Gecko/20100101 Firefox/18.0'
+  },
+  cookies: [
+    'token=DGcGUmplWQSjfqEvmu%2BZA%2Fc',
+    'id=2'
+  ]
 }, function (err, res){
-	if (err){
-		console.log(err);
-	}else{
-		console.log(res.body);
-	}
+  if (err){
+    console.log(err);
+  }else{
+    console.log(res.body);
+  }
 });
 ```
 ---------------------------------------
@@ -130,16 +130,16 @@ __Example without extra options__
 var httpreq = require('httpreq');
 
 httpreq.post('http://posttestserver.com/post.php', {
-	parameters: {
-		name: 'John',
-		lastname: 'Doe'
-	}
+  parameters: {
+    name: 'John',
+    lastname: 'Doe'
+  }
 }, function (err, res){
-	if (err){
-		console.log(err);
-	}else{
-		console.log(res.body);
-	}
+  if (err){
+    console.log(err);
+  }else{
+    console.log(res.body);
+  }
 });
 ```
 
@@ -149,23 +149,23 @@ __Example with options__
 var httpreq = require('httpreq');
 
 httpreq.post('http://posttestserver.com/post.php', {
-	parameters: {
-		name: 'John',
-		lastname: 'Doe'
-	},
-	headers:{
-		'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:18.0) Gecko/20100101 Firefox/18.0'
-	},
-	cookies: [
-		'token=DGcGUmplWQSjfqEvmu%2BZA%2Fc',
-		'id=2'
-	]
+  parameters: {
+    name: 'John',
+    lastname: 'Doe'
+  },
+  headers:{
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:18.0) Gecko/20100101 Firefox/18.0'
+  },
+  cookies: [
+    'token=DGcGUmplWQSjfqEvmu%2BZA%2Fc',
+    'id=2'
+  ]
 }, function (err, res){
-	if (err){
-		console.log(err);
-	}else{
-		console.log(res.body);
-	}
+  if (err){
+    console.log(err);
+  }else{
+    console.log(res.body);
+  }
 });
 ```
 
