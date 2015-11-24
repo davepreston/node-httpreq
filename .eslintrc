@@ -26,7 +26,7 @@
     "consistent-return": 1,
     "curly": [2, "all"],
     "default-case": 2,
-    "dot-notation": [2, {
+    "dot-notation": [1, {
       "allowKeywords": true
     }],
     "dot-location": [2, "property"],
@@ -84,6 +84,7 @@
     "no-native-reassign": 2,
     "no-nested-ternary": 2,
     "no-new-func": 2,
+    "no-new-object": 2,
     "no-new-wrappers": 2,
     "no-octal-escape": 2,
     "no-octal": 2,
@@ -113,6 +114,7 @@
     "no-unreachable": 2,
     "no-unused-vars": 1,
     "no-use-before-define": 2,
+    "no-useless-concat": 2,
     "no-warning-comments": 1,
     "no-with": 2,
     "no-wrap-func": 0,
