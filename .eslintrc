@@ -130,7 +130,7 @@
       }
     }],
     "padded-blocks": [2, "never"],
-    "quote-props": [2, "as-needed"],
+    "quote-props": [2, "consistent"],
     "quotes": [2, "single", "avoid-escape"],
     "radix": 2,
     "semi": 2,
@@ -140,7 +140,7 @@
     }],
     "space-after-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
-    "space-before-function-paren": [2, "always"],
+    "space-before-function-paren": [2, "never"],
     "space-in-parens": [2, "never"],
     "space-infix-ops": 2,
     "space-return-throw-case": 2,
